@@ -127,23 +127,30 @@ hr{
     color: grey;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 header{
     height: 10vh;
     width: 85%;
-    background-color: blue;
+    background-color: rgb(19, 19, 37);
+    justify-content: flex-end;
+    align-items: center;
+    /* position: fixed; */
+    
 }
+
+header button{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+
+
+
+
+
+
 
 main{
     width: 85%;
