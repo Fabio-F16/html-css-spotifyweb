@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Spotify</title>
 </head>
@@ -23,9 +26,9 @@
                 <img class="width-80" src="img/logo.svg" alt="logo">
 
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Cerca</a></li>
-                    <li><a href="#"><i class="fa-solid fa-book"></i> La tua libreria</a></li>
+                    <li><a href="#"> <img src="img/home.svg" alt="home"> Home</a></li>
+                    <li><a href="#"><img src="img/search.svg"> Cerca</a></li>
+                    <li><a href="#"><img src="img/libreria.svg"> La tua libreria</a></li>
                 </ul>
 
             </div>
@@ -80,6 +83,85 @@
 
 
         <main class="float-right">
+
+            <div class="nav-main flex">
+                <ul class="flex container width-50">
+                    <li><a href="#">IN EVIDENZA</a></li>
+                    <li><a href="#">PODCAST</a></li>
+                    <li><a href="#">CLASSIFICHE</a></li>
+                    <li><a href="#">GENERI E MOOD</a></li>
+                    <li><a href="#">NUOVE USCITE</a></li>
+                    <li><a href="#">SCOPRI</a></li>
+                </ul>
+            </div>
+
+
+            <div class="container width-90">
+
+                <div id="recently-played">
+
+                    <h2>Recently played</h2>
+
+                    <div class="row flex">
+
+                        <div>
+
+                            <img class="width-100" src="img/metal_lifting.jpg" alt="metal">
+
+
+
+                            <h5>Heavy Metal</h5>
+                            <p>Subtitle</p>
+
+                        </div>
+
+                        <div>
+                            <img class="width-100" src="img/stranger.jpeg" alt="stranger">
+                            <h5>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h5>
+                            <p>Kyle Dixon & Michael Stein</p>
+                        </div>
+
+                        <div>
+                            <img class="width-100" src="img/aquietplace.jpeg" alt="aquieteplace">
+                            <h5>A quiet place</h5>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div>
+                            <img class="width-100" src="img/split.jpeg" alt="split">
+                            <h5>Split</h5>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div>
+                            <img class="width-100" src="img/cure.jpeg" alt="metal">
+                            <h5>A cure for wellness</h5>
+                            <p>Subtitle</p>
+                        </div>
+
+                        <div>
+                            <img class="width-100" src="img/metal_lifting.jpg" alt="metal">
+                            <h5>Sinister</h5>
+                            <p>Subtitle</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div id="create-for-user">
+
+                </div>
+
+
+
+
+                <div id="popular-artists">
+
+                </div>
+
+            </div>
 
 
         </main>
