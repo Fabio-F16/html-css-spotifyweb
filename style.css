@@ -84,6 +84,7 @@ nav{
     padding: 10px 10px;
     color: grey;
     position: relative;
+    overflow: scroll;
 }
 
 nav ul li img{
@@ -232,7 +233,7 @@ main{
     flex-shrink: 1;
 } */
 
-#recently-played{
+#recently-played, #popular-artists{
     margin: 2% 0px;
 }
 
@@ -269,8 +270,14 @@ main{
     color: grey;
 }
 
-#create-for-user .row{
+#create-for-user .row, #popular-artists .row{
     margin-top: 2%;
+}
+
+
+
+#popular-artists img{
+    border-radius: 50%;
 }
 
 
