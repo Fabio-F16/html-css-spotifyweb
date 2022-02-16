@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
 .clearfix::after{
@@ -219,28 +220,60 @@ ul{
     border-bottom: 3px solid greenyellow;
 }
 
-#recently-played{
-    margin-top: 15px;
+main{
+    overflow: scroll;
 }
 
-#recently-played .flex div{
-    width: calc(85% / 6);
+.main-music{
+    padding-left: 1%;
+}
+
+/* .row{
+    flex-shrink: 1;
+} */
+
+#recently-played{
+    margin: 2% 0px;
+}
+
+#recently-played .row div{
+    width: 15%;
     text-align: center;
 }
 
 #recently-played .row{
     justify-content: space-between;
-    margin-top: 15px;  
+    margin-top: 2%;
 }
 
-#recently-played .row p{
+.row p, #create-for-user p, #popular-artists p{
     font-size: 0.7rem;
 }
 
-#recently-played .row img:hover{
-    opacity: 30%;
-
+.row h5{
+    padding: 3% 0px;
 }
+
+.row img:hover{
+    opacity: 30%;
+    /* background-image: url("img/play.png"); */
+}
+
+#create-for-user .row div, #popular-artists .row div{
+    width: 15%;
+    text-align: center;
+    margin-right: 2%;
+}
+
+#create-for-user p, #popular-artists p{
+    color: grey;
+}
+
+#create-for-user .row{
+    margin-top: 2%;
+}
+
+
 
 
 
