@@ -82,7 +82,7 @@ body{
 
 nav{
     width: 250px;
-    height: 90vh;
+    height: calc(100vh - 75px);
     background-color: black;
     padding: 10px 10px;
     color: grey;
@@ -134,13 +134,10 @@ nav h4{
     padding-right: 5px;
 }
 
-
-
-
 .footer-nav{
     position: absolute;
     bottom: 0px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .user{
@@ -203,9 +200,10 @@ header button:hover{
 
 main{
     width: calc(100% - 250px);
-    height: 80vh;
+    height: calc(100vh - 10vh - 75px);
     background-color: #141922;
     color: white;
+    overflow-y: scroll;
 }
 
 .nav-main{
@@ -235,15 +233,15 @@ ul{
     border-bottom: 3px solid greenyellow;
 }
 
-main{
+/* main{
     overflow-y: scroll;
-}
+} */
 
 .main-music{
     padding-left: 1%;
 }
 
-#recently-played, #popular-artists{
+#recently-played, #popular-artists, #create-for-user{
     margin: 2% 0px;
 }
 
@@ -253,6 +251,7 @@ main{
     margin-top: 2%;
     
 }
+
 
 .row p, #create-for-user p, #popular-artists p{
     font-size: 0.7rem;
@@ -353,7 +352,7 @@ footer img{
 }
 
 .footer-right i, .footer-left i{
-    margin: 0px 5px;
+    margin: 0px 2px;
     
 }
 
