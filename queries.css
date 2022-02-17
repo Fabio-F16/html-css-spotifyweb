@@ -1,0 +1,60 @@
+@media screen and (max-width: 1100px) {
+
+    .nav-main .container{
+        width: 90%;  
+    }
+
+    #recently-played .row div{
+        width: calc(100% / 4);
+        /* flex-shrink: 0; */
+    }
+
+    #create-for-user .row div, #popular-artists .row div{
+        width: calc(100% / 4);
+    }
+
+    #recently-played .row {
+        flex-wrap: wrap;
+    }
+        
+    
+}
+
+@media screen and (max-width: 800px) {
+
+
+    #recently-played .row div, #create-for-user .row div, #popular-artists .row div{
+        width: calc(100% / 2);
+    }
+
+    .footer-middle .player{
+        width: 80%; 
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
+    nav{
+        width: 50px;
+    }
+
+    header, main{
+        width: calc(100% - 50px) ;
+    }
+
+    nav ul li img, .footer-nav img{
+        width: 100%;
+    }
+    .logo-small{
+        display: inline;
+    }
+    .logo, nav a, .playlist ul, nav h4, .user p, hr, .profile p{
+        display: none;
+    }
+
+    
+
+    
+    
+}
